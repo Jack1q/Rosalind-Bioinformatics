@@ -9,9 +9,9 @@ public class ConsensusandProfile {
 			String text = s.next();
 			if (text.contains(">")) {
 				if (content.length() > 0) {
-				sequences.add(content);
-				content = "";
-			}
+					sequences.add(content);
+					content = "";
+				}
 			}
 			else {
 				content += text;
